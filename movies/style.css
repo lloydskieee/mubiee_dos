@@ -351,3 +351,27 @@ h2 {
   width: 100%;
   height: 100%;
 }
+/* Episode Buttons */
+.episode-btn {
+  background-color: #0a2347;
+  border: none;
+  border-radius: 25px;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+
+.episode-btn.active {
+  background-color: #0a2347;
+  box-shadow: #3143e6 1px 5px 5px;
+  color: white;
+}

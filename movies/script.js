@@ -123,3 +123,13 @@ function formatTime(time) {
   setSeekBar();
   requestAnimationFrame(updateCurrentTime);
   });
+
+  function activateButton(event) {
+  // remove active class from all buttons
+  const buttons = document.querySelectorAll(".episode-btn");
+  buttons.forEach(button => button.classList.remove("active"));
+  
+  // add active class to clicked button
+  const clickedButton = event.target;
+  clickedButton.classList.add("active");
+}
