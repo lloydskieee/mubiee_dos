@@ -1,0 +1,307 @@
+/* General Styles */
+/* Use box-sizing to include padding and borders in element's total width */
+* {
+    box-sizing: border-box;
+    color: black;
+}
+#menu-toggle {
+    display: none;
+}
+/* Set default font size and font family */
+body {
+    background-color: #1E2129;
+    font-size: 16px;
+    font-family: "Montserrat", Arial;
+    line-height: 1.2em;
+    font-weight: 400;
+    font-size: 14px;
+}
+/* Set default margin and padding to 0 for the whole page */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+/* Header Styles */
+/* Create a flex container for the header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0d1117;
+    padding: 20px;
+}
+/* Style the logo */
+h1 {
+    margin: 0;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+}
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav li {
+    margin: 0 10px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+nav ul li a:hover {
+    border-radius: 25px;
+    box-shadow:#3143e6 0px 5px 10px 1px;
+    color: #fff;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+/* Main Styles */
+/* Add some padding to the main section */
+main {
+    padding: 20px;
+}
+h2 {
+    color: #fff;
+}
+p {
+    color: #fff;
+}
+/* Allignment of the text */
+.container {
+    text-align: center;
+}
+/* Footer Styles */
+/* Add a gray background color to the footer */
+footer {
+    background-color: #0d1117;
+    text-align: center;
+    font-size: 11px;
+    padding: 30px;
+}
+/* Media Queries for Responsive Design */
+/* Viewport of 1280px and up */
+@media (min-width: 1280px) {
+   /* Increase font size */
+    body {
+        font-size: 18px;
+   }
+   /* Increase header padding */
+    header {
+        padding: 30px;
+   }
+}
+/* Viewport of 1024px and up */
+@media (min-width: 1024px) {
+   /* Increase font size */
+    body {
+        font-size: 20px;
+   }
+}
+/* Viewport of 980px and up */
+@media (min-width: 980px) {
+   /* Increase header logo font size */
+    h1 {
+        font-size: 32px;
+   }
+   /* Decrease navigation menu font size */
+    nav a {
+        font-size: 14px;
+   }
+}
+/* Viewport of 768px and up */
+@media (min-width: 768px) {
+   /* Increase main section padding */
+    main {
+        padding: 30px;
+   }
+}
+/* Viewport of 530px and up */
+@media (min-width: 530px) {
+   /* Decrease navigation menu margin */
+    nav li {
+        margin: 0 5px;
+   }
+}
+/* Viewport of 480px and up */
+@media (min-width: 480px) {
+   /* Decrease font size */
+    body {
+        font-size: 16px;
+   }
+   /* Decrease header padding */
+    header {
+        padding: 20px;
+   }
+}
+/* Viewport of 412px and up */
+@media (min-width: 412px) {
+   /* Decrease navigation menu font size */
+    nav a {
+        font-size: 12px;
+   }
+}
+/* Viewport of 360px and up */
+@media (min-width: 360px) {
+   /* Decrease main section padding */
+    main {
+        padding: 20px;
+   }
+}
+/* Hamburger menu styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+    color: #fff;
+}
+nav {
+    border-radius: 25px;
+    display: flex;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+nav ul {
+    border-radius: 15px;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+nav li {
+    margin-right: 2rem;
+}
+/* Style for the hidden menu */
+.hidden-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    z-index: 999;
+}
+/* Style for the button */
+.hamburger {
+    display: none;
+}
+.hamburger:hover {
+    background-color: #293285;
+    color: #fff;
+}
+/* Style for the button label */
+.hamburger-label {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 1000;
+}
+/* Style for the button label when clicked */
+.hamburger-label.clicked {
+    background-color: #fff;
+    color: #333;
+}
+/* Style for the menu links */
+.hidden-menu a {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+/* Style for the menu links when clicked */
+.hidden-menu a.clicked {
+    background-color: #fff;
+    color: #333;
+}
+/* Media query to toggle hamburger menu */
+@media screen and (max-width: 768px) {
+    nav {
+        display: none;
+   }
+    .menu-icon {
+        display: block;
+   }
+    #menu-toggle:checked~nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #161925;
+        position: absolute;
+        top: 4rem;
+        left: 0;
+        right: 0;
+   }
+    #menu-toggle:checked~nav ul {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+   }
+    #menu-toggle:checked~nav li {
+        margin: 1rem;
+   }
+}
+/* hide checkbox on smaller screens */
+@media screen and (max-width: 768px) {
+    #menu-toggle {
+        display: none;
+   }
+}
+
+/* Main Button */
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0a2347;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+  }
+  
+  .download-btn:hover {
+    box-shadow: #3143e6 1px 5px 5px;
+  }
+
+  .mainBtn {
+    text-align: center;
+ }
+ 
+ .mainBtn .download-btn {
+    display: inline-block;
+ }
+ 
