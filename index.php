@@ -36,7 +36,7 @@
                 <p> Watching movies online has never been easier. Mubiee provides users with the option to watch their favorite tv shows and episodes in full-screen mode, which is great for when you're trying to watch a movie at work but don't want anyone around your cubicle catching an eyeful of what's on your screen. </p>
                 <p> One of the great things about Mubiee is that you can watch tv shows and movies from all different genres, including action, adventure, comedy, family-friendly films, superhero flicks (we love those), horror pictures for those who enjoy a good scare at night before bedtime, documentaries with interesting facts about people, places, and things around the world (check out our article on watch documentaries online free here), or musicals for those who simply enjoy watching talented dancers bust a move. </p>
                 <p> Mubiee is a great movie online website to watch tv shows and films. Users can watch the movies for free without having to create an account, making it ideal for anyone who wants to watch movies online quickly. </p>
-                <p> Mubiee also has top picks in tv series that are currently airing on television today, including the entire first season of "Stranger Things" and the pilot episode for the new series "Inhumans." So watch movies and tv shows on Mubiee today! </p>
+                <!-- <p> Mubiee also has top picks in tv series that are currently airing on television today, including the entire first season of "Stranger Things" and the pilot episode for the new series "Inhumans." So watch movies and tv shows on Mubiee today! </p> -->
             </section>
         </main>
         <footer>
