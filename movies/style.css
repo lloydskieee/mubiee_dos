@@ -102,9 +102,6 @@ h3 {
 .image-holder {
     border-radius: 15px;
 }
-.movieTitle:hover {
-    color: #3143e6;
-}
 .image-holder {
     position: relative;
     width: 100%;
@@ -123,9 +120,22 @@ h3 {
     height: 100%;
     object-fit: cover;
 }
+/* Movie Title */
+.movieTitle:hover {
+    color: #3143e6;
+}
 .movieTitle {
     color: #fff;
     background-color: #101a29;
+}
+/* Movie Date */
+.movieDate {
+    font-size: 10px;
+    color: #fff;
+    background-color: #101a29;
+}
+.movieDate:hover {
+    color: #3143e6;
 }
 /* Global Styles */
 body {
