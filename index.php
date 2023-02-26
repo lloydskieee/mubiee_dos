@@ -51,7 +51,7 @@
             </section>
         </main>
         <footer>
-            <?php require 'footer.php';?>
+            <?php include 'footer.php';?>
         </footer>
         <script src="script.js"></script>
     </body>
