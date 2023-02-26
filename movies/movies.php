@@ -27,7 +27,7 @@
 					<a href="/index.html">Home</a>
 				</li>
                 <li class="active">
-					<a href="/movies/movies.html">Movies</a>
+					<a href="/movies/movies.php">Movies</a>
 				</li>
 				<li class="#">
 					<a href="/tv-shows/tv-shows.html">TV Shows</a>
