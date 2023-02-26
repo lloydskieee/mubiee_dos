@@ -11,7 +11,7 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="movies/movies.php">Movies</a>
+                        <a href="/movies/movies.php">Movies</a>
                     </li>
                     <li class="#">
                         <a href="/tv-shows/tv-shows.html">TV Shows</a>
