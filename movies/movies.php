@@ -12,7 +12,7 @@
 	<body>
 		<nav>
 			<div class="logo">
-				<a href="/index.html">Mubiee</a>
+				<a href="./index.php">Mubiee</a>
 			</div>
 			<div class="search-bar">
 				<form>
