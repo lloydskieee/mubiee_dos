@@ -225,7 +225,7 @@
 					});
 					event.target.classList.add('active'); // add active class to the clicked button
 					columns.forEach(function(column, index) {
-						if (index >= (pageNumber - 1) * 24 && index < pageNumber * 24) {
+						if (index >= (pageNumber - 1) * 16 && index < pageNumber * 16) {
 							column.style.display = 'block';
 						} else {
 							column.style.display = 'none';
