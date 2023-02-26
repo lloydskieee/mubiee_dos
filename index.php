@@ -27,7 +27,9 @@
         </header>
         <main>
             <section>
-                <img src="https://iili.io/HMQMTzX.png" alt="Place Holder" width="250">
+            <img src="https://iili.io/HMQMTzX.png" alt="Place Holder" width="250">
+            </section>
+            <section>
                 <h2 class="container">Welcome to Mubiee 2.0</h2>
                 <div class="mainBtn"><a href="/movies/movies.html" class="download-btn">Go to homepage <i class="fa-solid fa-circle-right"></i></a></div>
                 <p> Mubiee is a free online stream to watch movies and tv shows. It has an extensive collection of content that includes all the latest releases, popular classics, award-winning films, and family favorites. Mubiee offers users the opportunity to watch free movies online without having to download anything or create any accounts. All you have to do is select what you want to watch, press play, and enjoy! </p>
