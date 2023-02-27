@@ -127,6 +127,7 @@ h3 {
 .movieTitle {
     color: #fff;
     background-color: #101a29;
+    font-size: 12px;
 }
 /* Movie Date */
 .movieDate {
@@ -190,7 +191,7 @@ a {
 /* Viewports in Tablet */
 @media only screen and (max-width: 1280px) {
     .row {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(6, 1fr);
    }
     .column {
         margin: 10px;
@@ -206,7 +207,7 @@ a {
 }
 @media only screen and (max-width: 980px) {
     .row {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
    }
     .column {
         margin: 10px;
@@ -214,7 +215,7 @@ a {
 }
 @media only screen and (max-width: 768px) {
     .row {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
    }
     .column {
         margin: 10px;
@@ -223,42 +224,52 @@ a {
 /* Viewports on Mobile */
 @media only screen and (max-width: 530px) {
     .row {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
    }
     .column {
         margin-top: 15px;
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-left: 5px;
+        margin-right: 0px;
    }
 }
 @media only screen and (max-width: 480px) {
     .row {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
    }
     .column {
         margin-top: 15px;
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-left: 5px;
+        margin-right: 1px;
    }
 }
 @media only screen and (max-width: 412px) {
     .row {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
    }
     .column {
         margin-top: 5px;
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-left: 5px;
+        margin-right: 1pxpx;
    }
 }
 @media only screen and (max-width: 360px) {
     .row {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
    }
     .column {
         margin-top: 15px;
-        margin-left: 80px;
-        margin-right: 80px;
+        margin-left: 5px;
+        margin-right: 1px;
+   }
+}
+@media only screen and (max-width: 320px) {
+    .row {
+        grid-template-columns: repeat(2, 1fr);
+   }
+    .column {
+        margin-top: 15px;
+        margin-left: 1px;
+        margin-right: 1px;
    }
 }
 /* Pages */
